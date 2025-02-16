@@ -1,0 +1,129 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #36BBCE;
+    width: 139px;
+    height: 50px;
+    left: 766px;
+    top: 33px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+    padding: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+h1 {
+font-size: 36px;
+text-align: center;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.info {
+   display: flex;
+   flex-wrap: wrap;
+   width: 110px;
+   margin: 0px;
+   justify-content: space-around;
+}
+
+article {
+   background-color: wheat;
+   padding: 15px;
+   width: 400px;
+   margin: 19px;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #33AA00;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+}
+
+footer {
+   display: flex;
+   background-color: rgb(115, 122, 241);
+}
+
+footer a {
+    margin-right: 10px;
+}
+
+footer p {
+    font-size: 24px;
+}
+.about_us{
+    color:white;
+}
+.about_img{
+    
+box-sizing: border-box;
+width: 385px;
+height: 385px;
+left: 490px;
+top: 343px;
+border: 5px solid #FFFFFF;
+
+}
+.about li {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+ul {
+    list-style-type: disc;
+}
+main img{
+    width: 100%;
+}
+.about {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
